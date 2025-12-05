@@ -62,7 +62,7 @@
   margin-bottom: 10px;
 }
 .hero img {
-  width: 10%;         
+  width: 30%;         
   max-width: 200px;   
   border-radius: 8px;
   margin: 8px auto 16px;
@@ -156,5 +156,6 @@
     grid-template-columns: 1fr;
   }
 }
+
 
 
