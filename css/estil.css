@@ -15,8 +15,9 @@
 }
 .cap .logo {
   width: 180px;              /* antes era 56px → ahora 3 veces más grande */
-  height: auto;
+  height: 180px;
   object-fit: contain;
+  text-align: center; 
   display: block;
   margin: 0 auto 16px;       /* centrado arriba del título */
 }
@@ -63,10 +64,12 @@
   margin-bottom: 10px;
 }
 .hero img {
-  width: 35%;
+  width: 20%;
+  height: auto;
   border-radius: 8px;
   margin: 8px 0 16px;
 }
+
 
 
 /* Cards */
@@ -171,4 +174,5 @@
     grid-template-columns: 1fr;
   }
 }
+
 
