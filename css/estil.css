@@ -107,7 +107,10 @@
   gap: 12px;
 }
 .grid img {
-  width: 100%;
+  width: 80%;          /* más pequeño que 100% */
+  max-width: 300px;    /* límite máximo en píxeles */
+  margin: 0 auto;      /* centrado */
+  display: block;
   border-radius: 8px;
 }
 
