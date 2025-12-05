@@ -14,12 +14,13 @@
   text-align: center;
 }
 .cap .logo {
-  width: 150px;       /* más grande */
-  height: auto;       /* mantiene proporción */
+  width: 180px;              /* antes era 56px → ahora 3 veces más grande */
+  height: auto;
   object-fit: contain;
-  display: block;     /* en su propia línea */
-  margin: 0 auto 12px;/* centrado y con espacio debajo */
+  display: block;
+  margin: 0 auto 16px;       /* centrado arriba del título */
 }
+
 .cap h1 {
   font-size: 1.6rem;  /* un poco más grande */
   margin-top: 4px;
@@ -62,12 +63,11 @@
   margin-bottom: 10px;
 }
 .hero img {
-  width: 80%;          /* más pequeña y centrada */
-  max-width: 400px;    /* límite máximo */
+  width: 35%;
   border-radius: 8px;
-  margin: 8px auto 16px;
-  display: block;
+  margin: 8px 0 16px;
 }
+
 
 /* Cards */
 .cards {
@@ -171,3 +171,4 @@
     grid-template-columns: 1fr;
   }
 }
+
