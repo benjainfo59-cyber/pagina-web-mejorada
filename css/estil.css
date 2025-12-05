@@ -2,8 +2,8 @@
   box-sizing: border-box;
   font-family: Verdana, Arial, sans-serif;
   color: #333;
-  margin: 4;
-  padding: 4;
+  margin: 4px;   /* corregido con unidades */
+  padding: 4px;  /* corregido con unidades */
 }
 
 /* Capçalera */
@@ -14,16 +14,15 @@
   text-align: center;
 }
 .cap .logo {
-  width: 120px;
-  height: auto;
+  width: 150px;       /* más grande */
+  height: auto;       /* mantiene proporción */
   object-fit: contain;
-  vertical-align: middle;
-  margin-right: 8px;
+  display: block;     /* en su propia línea */
+  margin: 0 auto 12px;/* centrado y con espacio debajo */
 }
-
 .cap h1 {
-  font-size: 1.4rem;
-  margin-top: 8px;
+  font-size: 1.6rem;  /* un poco más grande */
+  margin-top: 4px;
 }
 
 /* Contenidor */
@@ -63,13 +62,14 @@
   margin-bottom: 10px;
 }
 .hero img {
-  width: 30%;         
-  max-width: 200px;   
+  width: 80%;          /* más pequeña y centrada */
+  max-width: 400px;    /* límite máximo */
   border-radius: 8px;
   margin: 8px auto 16px;
-  display: block;      
+  display: block;
 }
 
+/* Cards */
 .cards {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -101,6 +101,20 @@
   text-align: left;
   border-radius: 8px;
 }
+.right ul {
+  list-style: none;
+  padding: 0;
+}
+.right li {
+  margin-bottom: 8px;
+}
+.right a {
+  color: #0066cc;
+  text-decoration: none;
+}
+.right a:hover {
+  text-decoration: underline;
+}
 
 /* Galeria grid */
 .grid {
@@ -109,9 +123,9 @@
   gap: 12px;
 }
 .grid img {
-  width: 80%;          /* más pequeño que 100% */
-  max-width: 300px;    /* límite máximo en píxeles */
-  margin: 0 auto;      /* centrado */
+  width: 80%;
+  max-width: 300px;
+  margin: 0 auto;
   display: block;
   border-radius: 8px;
 }
@@ -157,8 +171,3 @@
     grid-template-columns: 1fr;
   }
 }
-
-
-
-
-
