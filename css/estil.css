@@ -62,12 +62,13 @@
   margin-bottom: 10px;
 }
 .hero img {
-  width: 30%;
+  width: 10%;         
+  max-width: 200px;   
   border-radius: 8px;
-  margin: 8px 0 16px;
+  margin: 8px auto 16px;
+  display: block;      
 }
 
-/* Cards */
 .cards {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -155,4 +156,5 @@
     grid-template-columns: 1fr;
   }
 }
+
 
