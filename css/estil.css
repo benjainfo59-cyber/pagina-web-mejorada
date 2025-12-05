@@ -11,16 +11,18 @@
   background: linear-gradient(90deg, #222, #444);
   color: #fff;
   padding: 16px;
-  text-align: center;
+  text-align: center;   /* centra todo el contenido dentro del header */
 }
+
 .cap .logo {
-  width: 180px;             
+  width: 180px;         /* tamaño grande */
   height: 180px;
   object-fit: contain;
-  text-align: center; 
-  display: block;
-  margin: 0px;       /* centrado arriba del título */
+  display: inline-block; /* se centra gracias al text-align del contenedor */
+  margin: 0;            /* sin margen */
+  padding: 0;           /* sin padding */
 }
+
 
 .cap h1 {
   font-size: 1.6rem;  /* un poco más grande */
@@ -174,6 +176,7 @@
     grid-template-columns: 1fr;
   }
 }
+
 
 
 
